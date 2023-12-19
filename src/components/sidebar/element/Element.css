@@ -1,24 +1,36 @@
 p {
-    color: rgba(170, 170, 170, 1);
-    line-height: 18.75px;
+  color: rgba(170, 170, 170, 1);
+  line-height: 18.75px;
 }
-.element:hover p{
-    color: rgba(255, 255, 255, 1);
+.element:hover p {
+  color: rgba(255, 255, 255, 1);
 }
 @media (min-width: 1025px) {
-    .element {
-        width: 150px;
-        height: 44px;
-        padding-left: 15px;
-        display: flex;
-        align-items: center;
-    }
+  .element {
+    width: 125px;
+    height: 44px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* CSS rules for tablets go here */
+  .element {
+    width: 100px;
+    height: 44px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media (max-width: 767px) {
-  /* CSS rules for mobile go here */
+  .element {
+    width: 150px;
+    height: 44px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+  }
 }
