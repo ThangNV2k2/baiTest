@@ -1,0 +1,16 @@
+
+@media (min-width: 1025px) {
+    .sidebar {
+        background: rgba(25, 23, 24, 1);
+        height: 935px;
+        max-width: 150px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS rules for tablets go here */
+}
+
+@media (max-width: 767px) {
+  /* CSS rules for mobile go here */
+}
