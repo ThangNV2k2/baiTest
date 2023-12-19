@@ -1,7 +1,27 @@
 @media (min-width: 1025px) {
   .group {
-    max-width: 31%;
-    min-height: 252px;
+    width: 31%;
+    max-height: 252px;
+  }
+  img {
+    float: left;
+    margin-right: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .group {
+    width: 48%;
+    /* min-height: 252px; */
+  }
+  img {
+    float: left;
+    margin-right: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .group {
+    width: 100%;
+    /* min-height: 252px; */
   }
   img {
     float: left;
